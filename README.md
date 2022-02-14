@@ -13,6 +13,7 @@ Use len() method to get the number of rows and columns
 Step 5:
 Print the output.
 ### PROGRAM:
+```
 import pandas as pd
 df = pd.read_csv('data.csv')
 print(df.head(10))
@@ -20,6 +21,7 @@ print(df.tail())
 print(df.loc[[78,79,80,81],:])
 print(len(df.axes[0]))
 print(len(df.axes[1]))
+```
 ### OUTPUT:
 ![](NBA.jpg)
 ### RESULT:
